@@ -67,7 +67,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Made by <a href="//aydinpramasta.github.io" target="_blank">Aydin Pramasta</a></span>
+                        <span>Made by <a href="#" target="_blank">Kelompok 4</a></span>
                     </div>
                 </div>
             </footer>

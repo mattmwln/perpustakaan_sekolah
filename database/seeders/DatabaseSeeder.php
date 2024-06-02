@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
             User::factory()->create([
                 'name' => 'Admin',
                 'number' => '6969',
-                'number_type' => 'NIS',
+                'number_type' => 'NIP',
                 'role' => User::ROLES['Admin'],
                 'password' => Hash::make('password'),
                 'address' => 'America',
@@ -33,7 +33,7 @@ class DatabaseSeeder extends Seeder
             User::factory()->create([
                 'name' => 'Pustakawan',
                 'number' => '9999',
-                'number_type' => 'NIS',
+                'number_type' => 'NIK',
                 'role' => User::ROLES['Librarian'],
                 'password' => Hash::make('password'),
                 'address' => 'America',
@@ -44,7 +44,7 @@ class DatabaseSeeder extends Seeder
             $member = User::factory()->create([
                 'name' => 'Member',
                 'number' => '9696',
-                'number_type' => 'NIS',
+                'number_type' => 'NIM',
                 'role' => User::ROLES['Member'],
                 'password' => Hash::make('password'),
                 'address' => 'America',

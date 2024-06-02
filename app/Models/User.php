@@ -18,7 +18,7 @@ class User extends Authenticatable
     ];
 
     public const NUMBER_TYPES = [
-        'NIS',
+        'NIM',
         'NIP',
         'NIK',
     ];
