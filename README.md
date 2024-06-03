@@ -1,4 +1,4 @@
-<h1 align="center">Perpustakaan</h1>
+<h1 align="center">📚 Perpustakaan</h1>
 
 ## Tech Stack
 
@@ -14,7 +14,8 @@
 
 - Clone project.
 ```bash
-git clone https://github.com/aydinpramasta/perpustakaan-sekolah.git
+git clone https://github.com/mattmwln/perpustakaan_sekolah.git
+
 ```
 - Setup database pada komputer anda, lalu masukkan kredensial-kredensialnya ke file `.env`.
 ```
