@@ -12,7 +12,7 @@ export default defineConfig({
         }),
     ],
     build: {
-        outDir: 'dist', // Menentukan direktori output
-        emptyOutDir: true, // Mengosongkan direktori output sebelum build
+        outDir: 'public/dist', // Ganti ke 'public/dist' jika perlu
+        emptyOutDir: true,
     },
 });
