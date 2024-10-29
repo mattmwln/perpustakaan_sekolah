@@ -11,4 +11,8 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    build: {
+        outDir: 'dist', // Menentukan direktori output
+        emptyOutDir: true, // Mengosongkan direktori output sebelum build
+    },
 });
